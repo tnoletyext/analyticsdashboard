@@ -1,0 +1,25 @@
+{
+  "$id": "c_Tiempo_promedio_de_respuesta_de_comentarios103014",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Tiempo promedio de respuesta de comentarios.",
+  "description": "Tiempo promedio de respuesta de comentarios (en horas), sólo contempla los directorios que soportan la respuesta en plataforma ADN.",
+  "query": {
+    "metrics": [
+      "yext/REVIEW_RESPONSE_TIME"
+    ],
+    "dimensions": [
+      "yext/ENTITIES"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ]
+  },
+  "display": {
+    "hero": {
+      "aggregation": "MEAN"
+    }
+  }
+}

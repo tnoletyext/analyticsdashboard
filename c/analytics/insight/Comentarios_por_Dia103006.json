@@ -1,0 +1,23 @@
+{
+  "$id": "c_Comentarios_por_Dia103006",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Comentarios por Día",
+  "description": "Volumen de comentarios por día.",
+  "query": {
+    "metrics": [
+      "yext/NEW_REVIEWS"
+    ],
+    "dimensions": [
+      "yext/DAYS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      }
+    ]
+  },
+  "display": {
+    "line": {}
+  }
+}

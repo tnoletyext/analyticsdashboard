@@ -1,0 +1,26 @@
+{
+  "$id": "c_Sitio_de_Resena103005",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Sitio de Reseña",
+  "description": "Volumen de comentarios de los locales por sitio en el que se genera.",
+  "query": {
+    "metrics": [
+      "yext/NEW_REVIEWS"
+    ],
+    "dimensions": [
+      "yext/PARTNERS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      }
+    ]
+  },
+  "display": {
+    "pie": {
+      "showLabels": true,
+      "style": "DOUGHNUT"
+    }
+  }
+}

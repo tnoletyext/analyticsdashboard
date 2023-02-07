@@ -1,0 +1,125 @@
+{
+  "$id": "c_159412",
+  "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+  "name": "Reputación",
+  "insights": [
+    {
+      "insight": "REVIEWS-MAP",
+      "caption": "Los locales con comentarios negativos están resaltados en rojo, mientras que los comentarios positivos están marcados en verde. El tamaño del punto corresponde al número de comentarios que se recibieron en ese local.",
+      "x": 0,
+      "y": 0,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "insight": "REVIEWS-OVERVIEW",
+      "caption": "La clasificación promedio de tu local y el número de comentarios recibidos divididos por la calificación durante el período de tiempo seleccionado.",
+      "x": 3,
+      "y": 0,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "REVIEW-DISTRIBUTION-OVER-TIME",
+      "caption": "Número de comentarios que recibieron los locales divididos por calificación con el tiempo.",
+      "x": 3,
+      "y": 1,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "ROLLING-AVERAGE-RATING",
+      "caption": "El promedio diario contempla la calificación otorgada en los comentarios recibidos en los 90 días previos.",
+      "x": 0,
+      "y": 2,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_Comentarios_por_Dia103006",
+      "caption": "Volumen de comentarios por día.",
+      "x": 3,
+      "y": 2,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_Sitio_de_Resena103005",
+      "caption": "Comentarios de los locales por sitio en el que se genera.",
+      "x": 0,
+      "y": 3,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "insight": "REVIEW-PERCENTILE",
+      "caption": "Rendimiento de los comentarios de sus locales en comparación con empresas similares.",
+      "x": 2,
+      "y": 3,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "insight": "REVIEW-RATING-PIE",
+      "caption": "Distribución de la calificación media de tus reseñas",
+      "x": 4,
+      "y": 3,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "insight": "c_Sentimiento_por_palabras_clave_de_comentarios103008",
+      "caption": "Tendencia de sentimiento por palabra clave de comentarios. Una calificación positiva. A cada palabra clave se le asigna una puntuación de tendencia según lo negativo o positivo que contribuye a la tendencia del comentario como un todo.",
+      "x": 0,
+      "y": 5,
+      "width": 6,
+      "height": 2
+    },
+    {
+      "insight": "c_Palabras_clave_por_numero_de_menciones_en_comentarios103011",
+      "caption": "Palabras clave por número de menciones en comentarios.",
+      "x": 0,
+      "y": 7,
+      "width": 6,
+      "height": 3
+    },
+    {
+      "insight": "c_Palabras_clave_por_sentimiento_en_comentarios103012",
+      "caption": "Palabras clave por sentimiento en comentarios.",
+      "x": 0,
+      "y": 10,
+      "width": 6,
+      "height": 3
+    },
+    {
+      "insight": "c_Tiempo_promedio_de_respuesta_de_comentarios103014",
+      "caption": "Tiempo promedio de respuesta de comentarios (en horas), sólo contempla los directorios que soportan la respuesta de comentarios desde la plataforma ADN.",
+      "x": 0,
+      "y": 13,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "c_Tasa_de_respuesta_de_comentarios103019",
+      "caption": "Tasa de respuesta de comentarios.",
+      "x": 3,
+      "y": 13,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "insight": "COMPETITOR-REVIEW-RATING-GOOGLE",
+      "caption": "Clasificación media de los comentarios en los perfiles de empresa de la competencia.",
+      "x": 0,
+      "y": 14,
+      "width": 6,
+      "height": 1
+    }
+  ],
+  "filters": [
+    {
+      "filter": "yext/date",
+      "in": "WEEKS_12"
+    }
+  ]
+}

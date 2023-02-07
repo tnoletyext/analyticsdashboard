@@ -1,0 +1,25 @@
+{
+  "$id": "c_Tasa_de_respuesta_de_comentarios103019",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Tasa de respuesta de comentarios",
+  "description": "Tasa de respuesta de comentarios.",
+  "query": {
+    "metrics": [
+      "yext/REVIEW_RESPONSE_RATE"
+    ],
+    "dimensions": [
+      "yext/ENTITIES"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      }
+    ]
+  },
+  "display": {
+    "hero": {
+      "aggregation": "MEAN"
+    }
+  }
+}
